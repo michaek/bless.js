@@ -70,7 +70,7 @@
 <div>
     <h3>Help!</h3>
     <p>Relax. <a title="" target="_blank" href="http://github.com/paulyoung/bless.js">Download bless</a> and you're all set. Or alternatively:</p>
-    <pre>$ npm install bless</pre>
+    <pre>$ npm install bless -g</pre>
 </div>
 <div>
     <h3>Usage</h3>
@@ -86,6 +86,8 @@
     <pre>$ blessc source.css output.css</pre>
     <p>Check which version you're running.</p>
     <pre>$ blessc -v</pre>
+    <p>Turn off the cache buster.</p>
+    <pre>$ blessc source.css output.css --no-cache-buster</pre>
 </div>
 <div>
     <h3>Is this going to slow down my workflow?</h3>
@@ -93,7 +95,7 @@
 </div>
 <div>
     <h3>Demo</h3>
-    <p>Download this <a href="https://github.com/downloads/paulyoung/bless.js/example.css" target="_blank" title="">example css file</a> and try it out.</p>
+    <p>Download this <a href="/downloads/example.css" target="_blank" title="">example css file</a> and try it out.</p>
 </div>
 <div>
     <h3>Why the weird name?</h3>
@@ -102,22 +104,18 @@
 <div>
     <h3>This would be awesome as part of...</h3>
     <p>If you want to integrate with Bless, please <a title="" target="_blank" href="http://twitter.com/py">contact me</a>.</p>
-    <p>There's already a basic <a href="https://github.com/downloads/paulyoung/bless.js/Bless.Mac.zip" target="_blank" title="">Mac app</a> available with <a href="http://growl.info" target="_blank" title="">Growl</a> support.</p>
 </div>
+
                 </div><div role="sidebar" id="sidebar">
                     <div>
                         <img id="downloads" src="/img/downloads.png" alt="Downloads" />
                         <ul>
                             <li>
-                                <a href="https://github.com/downloads/paulyoung/bless.js/Bless.Mac.zip" target="_blank" title="">Bless for Mac</a>
-                                <span>Basic drag and drop app</span>
-                            </li>
-                            <li>
                                 <a title="" target="_blank" href="https://github.com/paulyoung/bless.js">Bless.js</a>
                                 <span>View the project on GitHub</span>
                             </li>
                             <li>
-                                <a href="https://github.com/downloads/paulyoung/bless.js/example.css" target="_blank" title="">Example.css</a>
+                                <a href="/downloads/example.css" target="_blank" title="">Example.css</a>
                                 <span>Download and try it out!</span>
                             </li>
                         </ul>
@@ -150,7 +148,7 @@
     -->
     <!-- end scripts-->
 
-  
+
     <!-- Change UA-XXXXX-X to be your site's ID -->
     <script>
         window._gaq = [['_setAccount','UAXXXXXXXX1'],['_trackPageview'],['_trackPageLoadTime']];
